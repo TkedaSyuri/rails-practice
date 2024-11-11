@@ -22,11 +22,14 @@ gem "sassc-rails"
 gem "bootstrap"
 
 
+
 group :development, :test do
   gem "byebug"
   gem "rspec-rails", "~>6.0.0"
   gem "factory_bot_rails"
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'rails-controller-testing'
+
 end
 
 group :development do
